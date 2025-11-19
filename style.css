@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: seashell;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+article {
+  border-radius: 10px;
+  background-color: white;
+  width: 343px;
+  height: 643px;
+}
+.conteiner {
+  padding: 0 24px 0 24px;
+}
+.div1 {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin: 24px 0 20px 0;
+}
+.number {
+  font-size: 32px;
+  color: #3d8168;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.p1 {
+  color: #6c7289;
+  text-decoration: line-through;
+  font-size: 13px;
+}
+.text {
+  font-size: 14px;
+  color: #6c7289;
+}
+h1 {
+  color: #1c232b;
+  margin: 51px 0 16px 0;
+}
+a {
+  color: white;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+
+  text-decoration: none;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11.61px;
+  border: none;
+  width: 295px;
+  height: 48px;
+  top: 539px;
+  left: 25px;
+  opacity: 1;
+  border-radius: 8px;
+  background-color: #3d8168;
+}
